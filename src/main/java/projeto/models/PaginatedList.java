@@ -1,4 +1,4 @@
-package ideias.models;
+package projeto.models;
 
 import java.util.List;
 

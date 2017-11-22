@@ -1,23 +1,29 @@
-package ideias.models;
+package projeto.models;
 
+import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.ManyToOne;
-
+import javax.persistence.Table;
 import java.math.BigDecimal;
-import ideias.models.Category;
+import projeto.models.Category;
 
 @Entity
+@Table(name="produto")
 public class Product
 {
 
    @Id
    @GeneratedValue(strategy = GenerationType.IDENTITY)
    private Integer id;
+   
+   @Column(name="nome")
    private String name;
+   @Column(name="descricao")
    private String description;
+   @Column(name="preco")
    private BigDecimal price;
    @ManyToOne
    private Category category;

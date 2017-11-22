@@ -1,12 +1,12 @@
-package ideias.daos;
+package projeto.daos;
 
 import java.util.List;
 
 import javax.persistence.EntityManager;
 import javax.inject.Inject;
-import ideias.models.PaginatedList;
+import projeto.models.PaginatedList;
 
-import ideias.models.Category;
+import projeto.models.Category;
 
 public class CategoryDao
 {

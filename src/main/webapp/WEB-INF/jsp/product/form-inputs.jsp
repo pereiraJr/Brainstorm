@@ -1,24 +1,24 @@
 <%@taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
   	        <div class="form-group">
-          <label for="name">name</label>
+          <label for="name">Nome</label>
           <div class="input-group">
             <span class="input-group-addon"><i class="glyphicon glyphicon-unchecked"></i></span><input type='text' name='product.name' id='product.name' value='${product.name}'/>
           </div>
         </div>
         <div class="form-group">
-          <label for="description">description</label>
+          <label for="description">Descricao</label>
           <div class="input-group">
             <span class="input-group-addon"><i class="glyphicon glyphicon-unchecked"></i></span><input type='text' name='product.description' id='product.description' value='${product.description}'/>
           </div>
         </div>
         <div class="form-group">
-          <label for="price">price</label>
+          <label for="price">Preco</label>
           <div class="input-group">
             <span class="input-group-addon"><i class="glyphicon glyphicon-unchecked"></i></span><input type='text' name='product.price' id='product.price' value='${product.price}'/>
           </div>
         </div>
         <div class="form-group">
-          <label for="category.id">category.id</label>
+          <label for="category.id">Nome Categoria</label>
           <div class="input-group">
             <span class="input-group-addon"><i class="glyphicon glyphicon-unchecked"></i></span><select name='product.category.id' id='product.category.id'>
 <c:forEach items='${categoryList}' var='currentItem'>

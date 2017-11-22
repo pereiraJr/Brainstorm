@@ -10,26 +10,27 @@
 <jsp:body>
   <div>
     <div class ="container min-container">
-      <h2 class="basic-title">List product</h2>
+      <h2 class="basic-title">Listar Produtos</h2>
         <div class="well">
           <table class="table table-condensed table-bordered table-striped table-hover">
           		  <thead>
 	                  <tr>
 	                  	<td>id</td>
-		                  	<td>name</td>
-		                  	<td>description</td>
-		                  	<td>price</td>
-						<td>actions</td>
+		                  	<td>Nome</td>
+		                  	<td>Descricao</td>
+		                  	<td>Preco</td>
+						<td>Acoes</td>
 	                  </tr>
                   </thead>
                   <tbody>
                   <c:forEach items='${paginatedList.currentList}' var='object'>         		
 	                  <tr>
-						<td><a href="<c:url value='/product'/>/${object.id}">${object.id}</a></td>
+						<td><a>${object.id}</a></td>
 		                  	<td>${object.name}</td>
 		                  	<td>${object.description}</td>
 		                  	<td>${object.price}</td>
-	                    <td><a href="<c:url value='/product/remove'/>/${object.id}">Remove</a></td>
+	                    <td><a href="<c:url value='/product/remove'/>/${object.id}">Remover</a>
+	                    <a href="<c:url value='/product'/>/${object.id}">Editar</a></td>
 					  </tr>
                   </c:forEach>
                   </tbody>

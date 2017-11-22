@@ -1,4 +1,4 @@
-package ideias.controllers;
+package projeto.controllers;
 
 import javax.inject.Inject;
 

@@ -1,4 +1,4 @@
-package ideias.daos;
+package projeto.daos;
 
 import java.util.List;
 
@@ -6,7 +6,7 @@ import javax.persistence.Entity;
 import javax.persistence.EntityManager;
 import javax.persistence.TypedQuery;
 
-import ideias.models.PaginatedList;
+import projeto.models.PaginatedList;
 
 /**
  * It deals with the pagination details

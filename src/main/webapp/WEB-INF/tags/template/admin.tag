@@ -31,7 +31,7 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="index.html">Project Name</a>
+        <a class="navbar-brand" href="/ideias/">Project Name</a>
       </div>
 
       <div class="collapse navbar-collapse" id="menu">
@@ -39,11 +39,11 @@
           <li class="dropdown">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Admin <span class="caret"></span></a>
             <ul class="dropdown-menu">
-	            	              <li><a href="<c:url value='/product/form'/>"><span class="glyphicon glyphicon-plus-sign"></span> Add product</a></li>	              
-	              <li><a href="<c:url value='/product'/>"><span class="glyphicon glyphicon-menu-hamburger"></span> List product</a></li>
+	            	              <li><a href="<c:url value='/product/form'/>"><span class="glyphicon glyphicon-plus-sign"></span> Add Produto</a></li>	              
+	              <li><a href="<c:url value='/product'/>"><span class="glyphicon glyphicon-menu-hamburger"></span> Listar Produto</a></li>
 				  <li role="separator" class="divider"></li>
-	              <li><a href="<c:url value='/category/form'/>"><span class="glyphicon glyphicon-plus-sign"></span> Add category</a></li>	              
-	              <li><a href="<c:url value='/category'/>"><span class="glyphicon glyphicon-menu-hamburger"></span> List category</a></li>
+	              <li><a href="<c:url value='/category/form'/>"><span class="glyphicon glyphicon-plus-sign"></span> Add Categoria</a></li>	              
+	              <li><a href="<c:url value='/category'/>"><span class="glyphicon glyphicon-menu-hamburger"></span> Listar Categoria</a></li>
 				  <li role="separator" class="divider"></li>
             </ul>
           </li>

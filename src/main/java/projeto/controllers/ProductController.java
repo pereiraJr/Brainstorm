@@ -1,4 +1,4 @@
-package ideias.controllers;
+package projeto.controllers;
 
 import javax.inject.Inject;
 import javax.validation.Valid;
@@ -11,10 +11,10 @@ import br.com.caelum.vraptor.Result;
 import br.com.caelum.vraptor.validator.Validator;
 import javax.transaction.Transactional;
 
-import ideias.daos.ProductDao;
-import ideias.daos.CategoryDao;
-import ideias.models.Category;
-import ideias.models.Product;
+import projeto.daos.ProductDao;
+import projeto.daos.CategoryDao;
+import projeto.models.Category;
+import projeto.models.Product;
 
 @Controller
 @Path("/product")
